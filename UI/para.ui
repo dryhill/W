@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>691</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="baseSizeGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>171</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>基础尺寸</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>131</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="baseSizeVerticalLayout">
+     <item>
+      <widget class="QLabel" name="baseLengthLabel">
+       <property name="text">
+        <string>基础长度(m)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="baseLengthLineEdit"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="baseWidthLabel">
+       <property name="text">
+        <string>基础宽度(m)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="baseWidthLineEdit"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="baseThickLabel">
+       <property name="text">
+        <string>基础厚度(m)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="baseThickLineEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="materialGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>70</y>
+     <width>211</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>单位体积混凝土中的材料用量(kg/m3)</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>131</width>
+      <height>128</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="materialVerticalLayout">
+     <item>
+      <widget class="QLabel" name="cementLabel">
+       <property name="text">
+        <string>水泥</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="cementLineEdit"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="ashLabel">
+       <property name="text">
+        <string>粉煤灰</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="ashLineEdit"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="slagLabel">
+       <property name="text">
+        <string>矿渣</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="slagLineEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="maintainGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>70</y>
+     <width>181</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>浇筑养护条件</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="maintainVerticalLayout">
+     <item>
+      <widget class="QLabel" name="concreteTempLabel">
+       <property name="text">
+        <string>混凝土入模温度</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="concreteTempLineEdit"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="coverLabel">
+       <property name="text">
+        <string>基础表面是否覆盖保温层</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QCheckBox" name="converYesCheckBox">
+         <property name="text">
+          <string>是</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="coverNoCheckBox">
+         <property name="text">
+          <string>否</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="WaterGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>381</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>冷水水参数</string>
+   </property>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="waterFormLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="waterSpeedLabel">
+       <property name="text">
+        <string>冷却水流量（0.8～3.2m3/h)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="waterSpeedLineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="deltaTempLabel">
+       <property name="text">
+        <string>冷却水入管温度与混凝土入模温度之差（0～20℃)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="deltaTempLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="maxPipeLengthLabel">
+       <property name="text">
+        <string>冷却水管最长单圈长度(0～200m)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="maxPipeLengthLineEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="PipeArrangeGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>380</y>
+     <width>361</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>冷却水管布置方式</string>
+   </property>
+   <widget class="QWidget" name="horizontalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="PipeArrangeHorizontalLayout">
+     <item>
+      <widget class="QCheckBox" name="PipeArrangeYesCheckBox">
+       <property name="text">
+        <string>自动布置</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="PipeArrangeNoCheckBox">
+       <property name="text">
+        <string>手动输入</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>310</y>
+     <width>166</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="YesNohorizontalLayout">
+    <item>
+     <widget class="QPushButton" name="YesPushButton">
+      <property name="text">
+       <string>确定</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="NoPushButton">
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>460</y>
+     <width>601</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="titleLabel">
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>大体积混凝土基础温度控制</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

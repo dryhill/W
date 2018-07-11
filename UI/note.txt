@@ -1,0 +1,6 @@
+mainW:	主窗口
+LeftTab： 左侧用tabview来管理界面
+tab1_Define_parametere:	第一个tab，定义参数
+tab2_Draw_Base:	第二个tab，画基础几何
+tab3_set_WaterPipe: 第三个tab，布置水管
+tab4_calc: 第四个tab，计算并出计算书

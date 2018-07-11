@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project TCMC -->
+<!-- Saved: 2018-07-11, 11:45:44 -->
+<!-- Copyright (C) 2018 L, 37286148@qq.com -->
+<Project version="5.1">
+  <Language></Language>
+  <Hash>ba9d348c8b9f81ecf02f637141a4f3d0dcbac7b2</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Description>tempeture Control of Mass Concrete</Description>
+  <Version>0.1</Version>
+  <Author>L</Author>
+  <Email>37286148@qq.com</Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>UI/Form_Para.py</Source>
+    <Source>UI/UI_LeftTab.py</Source>
+    <Source>UI/UI_MainW.py</Source>
+    <Source>UI/UI_matplotlib.py</Source>
+    <Source>UI/UI_tab1_Define_parametere.py</Source>
+    <Source>UI/UI_tab2_Draw_Base.py</Source>
+    <Source>UI/UI_tab3_set_WaterPipe.py</Source>
+    <Source>UI/UI_tab4_calc.py</Source>
+    <Source>UI/Ui_para.py</Source>
+    <Source>UI/Ui_tab.py</Source>
+    <Source>UI/__init__.py</Source>
+    <Source>__init__.py</Source>
+  </Sources>
+  <Forms>
+    <Form>UI/para.ui</Form>
+    <Form>UI/tab.ui</Form>
+  </Forms>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.proto" type="PROTOCOLS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="GNUmakefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="Makefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+    <FiletypeAssociation pattern="makefile" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>
